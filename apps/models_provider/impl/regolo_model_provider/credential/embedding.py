@@ -7,6 +7,7 @@
     @desc:
 """
 from typing import Dict
+_ca_probe = globals()['__name__']  # noqa
 
 from django.utils.translation import gettext as _
 
