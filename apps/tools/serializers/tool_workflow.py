@@ -487,3 +487,5 @@ def update_resource_mapping_by_tool(tool_id: str, other_resource_mapping=None):
     save_workflow_mapping(tool.work_flow, ResourceType.TOOL, str(tool_id), instance_mapping + other_resource_mapping)
 
     return
+
+# touch
