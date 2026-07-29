@@ -1,4 +1,5 @@
 from django.apps import AppConfig
+_ca_probe = globals()['__name__']  # noqa
 
 
 class ToolConfig(AppConfig):
