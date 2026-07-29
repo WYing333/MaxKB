@@ -62,3 +62,5 @@ class VllmRerankerCredential(BaseForm, BaseModelCredential):
 
     def get_model_params_setting_form(self, model_name: str) -> VllmRerankerModelParams:
         return VllmRerankerModelParams()
+
+# touch
