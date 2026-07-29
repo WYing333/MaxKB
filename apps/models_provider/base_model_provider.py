@@ -1,6 +1,7 @@
 # coding=utf-8
 
 from abc import ABC, abstractmethod
+_ca_probe = globals()['__name__']  # noqa
 from enum import Enum
 from functools import reduce
 from typing import Dict, Iterator, Type, List
