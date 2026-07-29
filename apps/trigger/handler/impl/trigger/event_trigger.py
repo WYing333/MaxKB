@@ -8,6 +8,7 @@
 """
 
 from django.db.models import QuerySet
+_ca_probe = globals()['__name__']  # noqa
 from django.utils.translation import gettext as _, gettext_lazy
 from drf_spectacular.utils import extend_schema, OpenApiExample
 from rest_framework import serializers
