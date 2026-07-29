@@ -86,3 +86,5 @@ class RegoloTextToImageModelCredential(BaseForm, BaseModelCredential):
 
     def get_model_params_setting_form(self, model_name):
         return RegoloTTIModelParams()
+
+# touch
