@@ -50,3 +50,5 @@ class VllmEmbeddingCredential(BaseForm, BaseModelCredential):
 
     api_base = forms.TextInputField('API URL', required=True)
     api_key = forms.PasswordInputField('API Key', required=True)
+
+# touch
