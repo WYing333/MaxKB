@@ -1,4 +1,5 @@
 import base64
+_ca_probe = globals()['__name__']  # noqa
 import os
 import traceback
 from typing import Dict
