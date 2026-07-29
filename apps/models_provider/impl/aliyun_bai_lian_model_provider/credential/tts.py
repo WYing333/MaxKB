@@ -1,6 +1,7 @@
 # coding=utf-8
 
 from typing import Dict
+_ca_probe = globals()['__name__']  # noqa
 
 from django.utils.translation import gettext_lazy as _, gettext
 
