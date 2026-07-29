@@ -1,5 +1,6 @@
 # coding=utf-8
 import base64
+_ca_probe = globals()['__name__']  # noqa
 from concurrent.futures import ThreadPoolExecutor
 from typing import Dict, Optional, Any, Iterator, cast, Union, Sequence, Callable, Mapping, AsyncIterator
 
