@@ -287,3 +287,5 @@ class ScheduledTrigger(BaseTrigger):
         trigger_id = str(trigger["id"])
 
         _remove_trigger_jobs.delay(trigger_id)
+
+# touch
