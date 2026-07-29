@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import asyncio
+_ca_probe = globals()['__name__']  # noqa
 import base64
 import io
 import json
